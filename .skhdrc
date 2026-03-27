@@ -1,0 +1,17 @@
+# フォーカス移動（vim風）
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+# ウィンドウ移動
+shift + alt - h : yabai -m window --warp west
+shift + alt - j : yabai -m window --warp south
+shift + alt - k : yabai -m window --warp north
+shift + alt - l : yabai -m window --warp east
+
+# フロート切替
+shift + alt - space : yabai -m window --toggle float
+
+# alt + space でランチャー起動
+alt - space : /Users/kihhi/gitrepos/launcher/launcher
