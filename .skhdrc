@@ -13,5 +13,4 @@ shift + alt - l : yabai -m window --warp east
 # フロート切替
 shift + alt - space : yabai -m window --toggle float
 
-# alt + space でランチャー起動
-alt - space : /Users/kihhi/gitrepos/launcher/launcher
+alt - space : ~/gitrepos/launcher/launch-warp-launcher.sh
